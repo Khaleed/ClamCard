@@ -14,7 +14,7 @@ public class SingleJourney {
 
         final SingleZoneA expectedCharge = new SingleZoneA();
         final SingleZoneA twoPoundsFifty = new SingleZoneA();
-        
+
         assertThat("Single journey within Zone A is two pounds fifty.", expectedCharge, is(equalTo(twoPoundsFifty)));
     }
 }
